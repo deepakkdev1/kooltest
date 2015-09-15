@@ -1,6 +1,6 @@
-from koolapp import app
+from koolapp import mainapp
 
-@app.route('/')
-@app.route('/index')
+@mainapp.route('/')
+@mainapp.route('/index')
 def index():
     return "Hello, World!"
