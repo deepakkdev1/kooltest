@@ -1,1 +1,1 @@
-web: gunicorn --access-logfile=- -c gunicorn.py app:app
+web: gunicorn --access-logfile=- -c gunicorn.py koolapp:app
